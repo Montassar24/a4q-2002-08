@@ -27,7 +27,7 @@ jobs:
 
       - run:
           name: "Run tests"
-          command: python3 -m pytest
+          command: python3 -m pytest Suite_TestSuite_Carrefour.py
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
